@@ -6,7 +6,7 @@
 
 (s/def :biodata-validator/url (s/and string? v/valid-url?))
 
-(s/def :biodata-validator/age (s/and (s/or :float float? :integer integer?) v/valid-age?))
+(s/def :biodata-validator/age (s/and number? v/valid-age?))
 
 (s/def :biodata-validator/gender (s/and string? v/valid-gender?))
 

@@ -1,5 +1,5 @@
-(defproject com.github.yjcyxky/biodata-validator "0.0.0"
-  :description "FIXME: write description"
+(defproject com.github.yjcyxky/biodata-validator "0.1.0"
+  :description "A set of specs for biomedical metadata."
   :url "https://github.com/yjcyxky/biodata-validator"
   :license {:name "Eclipse Public License"
             :url  "http://www.eclipse.org/legal/epl-v10.html"}
